@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vivien.slidingmenu.view.SlidingMenuV2 xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:item="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slidingmenu"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    item:rightPadding="100dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.vivien.slidingmenu.view.MenuPageView
+            android:id="@+id/menu_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/content">
+
+            <TextView
+                android:id="@+id/toggle_menu"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</com.vivien.slidingmenu.view.SlidingMenuV2>
