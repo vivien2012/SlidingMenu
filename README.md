@@ -10,3 +10,7 @@
 2、仿QQ5.0侧滑效果，请参考：Android 高仿 QQ5.0 侧滑菜单效果 自定义控件来袭
 
 3、菜单在内容之后的侧滑效果，请参考：Android 高仿 QQ5.0 侧滑菜单效果 自定义控件来袭
+
+![memory usage](s-1.png)
+![memory usage](s-2.png)
+![memory usage](s-3.png)
